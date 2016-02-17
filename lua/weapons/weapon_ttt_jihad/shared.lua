@@ -52,7 +52,7 @@ SWEP.InLoadoutFor = { ROLE_TRAITOR }
 --SWEP.LimitedStock = true
 
 -- If AllowDrop is false, players can't manually drop the gun with Q
-SWEP.AllowDrop = false
+SWEP.AllowDrop = true
 
 -- If NoSights is true, the weapon won't have ironsights
 SWEP.NoSights = true
@@ -61,7 +61,7 @@ SWEP.NoSights = true
 if CLIENT then
    SWEP.EquipMenuData = {
       type = "item_weapon",
-      desc = "Sacrifice yourself to Allah.\n\nYour 72 virgins await."
+      desc = "Tu es einfach."
    };
 end
 
