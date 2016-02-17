@@ -60,7 +60,7 @@ SWEP.InLoadoutFor = { nil }
 SWEP.AllowDrop = true
 
 -- If IsSilent is true, victims will not scream upon death.
-SWEP.IsSilent = true
+SWEP.IsSilent = false
 
 -- If NoSights is true, the weapon won't have ironsights
 SWEP.NoSights = false
